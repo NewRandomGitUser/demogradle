@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    password: 'root'
+    url: jdbc:mariadb://localhost:3306/BaseTeste
+    username: 'root'
+    initialization-mode: always
+  jpa:
+    show-sql: true
+    hibernate.ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MariaDB103Dialect
+
+
